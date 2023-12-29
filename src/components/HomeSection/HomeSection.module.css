@@ -65,7 +65,10 @@
 
 .getEmail input {
   background-color: transparent;
+  /* width: 420px; */
   border: 0;
+  padding: 3%;
+  border-radius: 43px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
