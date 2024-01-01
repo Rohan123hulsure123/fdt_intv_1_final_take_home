@@ -19,10 +19,10 @@ export default function Testimonials() {
         <h1>What says our <br/> happy Clients</h1>
         <div className={styles.sliderButtonsWrapper}>
             <div className={styles.sliderButton1}>
-                <img src={"./down 1.png"} alt="Left arrow"/>
+                <img src={"./Down 1.png"} alt="Left arrow"/>
             </div>
             <div className={styles.sliderButton2}>
-                <img src={"./down 2.png"} alt="Right arrow"/>
+                <img src={"./Down 2.png"} alt="Right arrow"/>
             </div>
         </div>
       </div>
