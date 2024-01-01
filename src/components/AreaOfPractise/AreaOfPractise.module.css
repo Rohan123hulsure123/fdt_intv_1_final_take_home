@@ -1,0 +1,110 @@
+.areaOfPractiseWrapper {
+  height: 1228px;
+  border-radius: 14px;
+}
+
+.areaOfPractiseWrapper h1 {
+  color: white;
+  height: 77px;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.firstRow {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.firstRow img {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 0.01%,
+    rgba(0, 0, 0, 0.6) 65%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  border-radius: 14px;
+}
+
+.card {
+  position: relative;
+}
+.card span {
+  position: absolute;
+  bottom: 8%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+/* .cardTwo {
+  position: relative;
+  
+}
+.cardTwo span {
+  position: absolute;
+  width: 100%;
+  bottom: 8%;
+  
+  left: 0;
+  text-align: center;
+  color: white;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+} */
+
+.secondRow {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.secondRow img {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 0.01%,
+    rgba(0, 0, 0, 0.6) 65%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  border-radius: 14px;
+}
+
+.thirdRow {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.thirdRow img {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 0.01%,
+    rgba(0, 0, 0, 0.6) 65%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  border-radius: 14px;
+}
