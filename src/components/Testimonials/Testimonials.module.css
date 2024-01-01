@@ -1,0 +1,104 @@
+.testimonialsWrapper {
+  padding: 2% 5% 5% 5%;
+  margin: 7%;
+  height: 626px;
+  color: white;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  position: relative;
+  padding: 1% 2% 0 2%;
+  width: 359px;
+  height: 377px;
+  border-radius: 14px;
+  border: 1.4px solid #ffffff1a;
+}
+
+.card:hover {
+  background-color: #2e2e2e;
+}
+
+.card img {
+  margin-top: 10%;
+}
+
+.card h1 {
+  margin: 5% 0 2% 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card p {
+  /* margin-bottom: 10%; */
+  width: 293px;
+  height: 69px;
+
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 30%;
+  text-overflow: ellipsis;
+}
+
+.testimonialsHeader {
+    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testimonialsHeader h1 {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sliderButtonsWrapper {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.sliderButton1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #e6e6e6;
+  width: 90.61px;
+  height: 90.61px;
+  border-radius: 50%;
+}
+.sliderButton2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #E3B748;
+
+    width: 90.61px;
+    height: 90.61px;
+    border-radius: 50%;
+  }
+  
