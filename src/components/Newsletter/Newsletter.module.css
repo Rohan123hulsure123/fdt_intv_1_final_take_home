@@ -1,0 +1,44 @@
+.newsletterWrapper {
+  height: 356px;
+
+  background: #47474780;
+  margin: 10%;
+  /* padding: 5%; */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletterWrapper h1 {
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.newsletterWrapper input {
+  padding: 0 1%;
+  margin: 0 0.2%;
+  width: 276px;
+  height: 53px;
+  border-radius: 8px;
+}
+
+.newsletterWrapper button {
+  margin: 0 0.2%;
+  width: 116px;
+  height: 56px;
+  border-radius: 8px;
+  background: #e3b748;
+  border-color: #e3b748;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
